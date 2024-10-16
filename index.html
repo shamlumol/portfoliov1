@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fontawsome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Caveat:wght@400..700&family=Dosis:wght@200..800&family=Kaushan+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- animate.style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <!-- logo -->
+        <img
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          class="logo"
+          src="./images/smlak-removebg-preview.png"
+          alt="no image"
+        />
+        <!-- links -->
+        <ul>
+          <li class="list-items"><a class="links" href="#home"> Home</a></li>
+          <li class="list-items"><a class="links" href="#about">About</a></li>
+          <li class="list-items"><a class="links" href="#skills">Skills</a></li>
+          <li class="list-items">
+            <a class="links" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- home -->
+
+      <section id="home">
+        <div class="home-content">
+          <h1 class="animate__animated animate__bounceInLeft" id="username">
+            I'm Maria <span id="lname">Joe</span>
+          </h1>
+          <p id="user-details">
+            This is my official website to describe all <br>
+            Details and work experience in web Development
+          </p>
+          <a id="download" href="./images/mariajoe Resume.pdf" download
+            >Download CV</a
+          >
+        </div>
+
+        <div class="home-img">
+          <!-- shape -->
+          <img
+            id="shape"
+            class="group1"
+            src="./images/bg-final.png"
+            alt="shape"
+          />
+          <!-- girl -->
+          <img
+            id="girl"
+            class="group1"
+            src="./images/businesslady-final.png"
+            alt="girl"
+          />
+        </div>
+      </section>
+
+      <!-- about -->
+
+      <section id="about">
+        <div class="sectionHead">
+          <h2 class="mainHead">About Me</h2>
+          <span class="subHead">Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="aboutImage"
+          >
+            <img
+              class="abImg"
+              src="./images/woman-sits-desk-with-laptop-words-word-it_1244682-332.avif"
+              alt="no image"
+            />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+              Expedita, accusantium? Perferendis libero architecto cumque atque
+              <br>
+              esse ullam assumenda placeat voluptatibus harum odio. <br>
+              Necessitatibus harum provident ipsa dicta odio aspernatur tempora.
+            </p>
+            <div class="information">
+              <div class="infoBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Maria Joe</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>9876543210</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>mariajoe@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section id="skills">
+        <div class="sectionHead">
+          <h2 class="mainHead">Skills</h2>
+          <span class="subHead">My Skills</span>
+        </div>
+        <div class="skillContents">
+          <div class="progerssbars">
+            <!-- progressbars -->
+            <div class="bars">
+              <h3 class="barHead">HTML</h3>
+              <span class="barPrecent">84%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right" class="htmlBar baseBar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">CSS</h3>
+              <span class="barPrecent">70%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right" class="cssBar baseBar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">JS</h3>
+              <span class="barPrecent">70%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right" class="jsBar baseBar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">React</h3>
+              <span class="barPrecent">85%</span>
+              <div class="baseBar"></div>
+              <div data-aos="fade-right" class="reactBar baseBar"></div>
+            </div>
+          </div>
+          <div class="skillrange">
+            <img width="100%;" src="./images/skills.jpg" alt="no image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- contacts -->
+      <section id="contact">
+        <div class="sectionHead">
+          <h2 class="mainHead">Contacts</h2>
+          <span class="subHead">My Contacts</span>
+        </div>
+
+        <div class="iconCollections">
+          <!-- Linkedin -->
+          <div class="icon">
+            <a
+              href="http://www.linkedin.com/in/shamlu-mol-a-k-5b2814253"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin brand"></i
+            ></a>
+          </div>
+          <!-- github -->
+          <div class="icon">
+            <a
+              href="#"><i class="fa-brands fa-github brand"></i
+            ></a>
+          </div>
+          <!-- Twitter -->
+          <div class="icon">
+            <a
+              href="#"><i class="fa-brands fa-x-twitter brand"></i
+            ></a>
+          </div>
+          <!-- watsapp -->
+          <div class="icon">
+            <a
+              href="#"
+              ><i class="fa-brands fa-whatsapp brand"></i
+            ></a>
+          </div>
+          <!-- facebook -->
+          <div class="icon">
+            <a
+              href="#"
+              ><i class="fa-brands fa-facebook brand"></i
+            ></a>
+          </div>
+          <!-- Instagram -->
+          <div class="icon">
+            <a
+              href="#"
+              ><i class="fa-brands fa-instagram brand"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <p id="copyright">
+          &copy; My portfolio Website - oct 2024, All Rights Reserved to &reg;
+          Maria Joe
+        </p>
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-chevron-up brand"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+</html>
